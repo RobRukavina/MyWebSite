@@ -7,13 +7,15 @@ class NavBar extends React.Component {
   render() {
     return (
       <Router>
-        <div className="NavBarRow">
-          <nav>
-            <a href="/">Home</a>
-          </nav>
-          <nav>
-            <a href="/contact">Contact</a>
-          </nav>
+        <div className="navbar" style={{ backgroundColor: "grey" }}>
+          <div className="row inline">
+            <nav>
+              <a href="/">Home</a>
+            </nav>
+            <nav>
+              <a href="/contact">Contact</a>
+            </nav>
+          </div>
         </div>
         <Route path="/" exact component={HomePage} />
         <Route path="/contact" exact component={Contact} />

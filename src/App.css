@@ -1,6 +1,8 @@
 .App {
   text-align: center;
-  background-color: darkcyan;
+  background-image: url(./OceanSun.jpg);
+  background-size: cover;
+  min-height: 125vh;
 }
 
 .App-logo {
@@ -56,4 +58,33 @@
 
 .NavBarRow {
   display: inline;
+}
+
+.MyFooter {
+  position: relative;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 30px;
+}
+
+.Description {
+  text-justify: auto;
+  height: 9rem;
+  background-color: rgb(184, 184, 184);
+  margin-left: auto;
+  margin-right: auto;
+  width: 40rem;
+}
+
+.ContactPageBody {
+  min-height: 100vh;
+}
+
+.PageBody {
+  position: relative;
+}
+
+.root {
+  height: 100%;
 }
