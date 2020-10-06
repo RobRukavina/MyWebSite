@@ -22,13 +22,13 @@ class HomePage extends React.Component {
           </div>
           <div className="AboutMe">
             <h1>{this.state.myData.name}</h1>
-            <h3>
+            <h6>
               {this.state.myData.occupation} in {this.state.myData.location}
-            </h3>
+            </h6>
           </div>
         </header>
         <div>
-          <h1>About Me</h1>
+          <h3>About Me</h3>
           <p className="Description">
             I am a Full Stack Developer with experience in developing a startup
             from end to end. Most of my experience is in React, C#/.NET, and SQL

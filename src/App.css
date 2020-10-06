@@ -51,30 +51,22 @@
   object-fit: cover;
 }
 
-.AboutMe {
-  font-weight: bold;
-  font-size: large;
-}
-
-.NavBarRow {
-  display: inline;
-}
-
 .MyFooter {
   position: fixed;
   bottom: 0;
   left: 0;
   right: 0;
   height: 30px;
+  background-color: grey;
 }
 
 .Description {
   text-justify: auto;
-  height: 9rem;
+  height: 11rem;
   background-color: rgb(184, 184, 184);
   margin-left: auto;
   margin-right: auto;
-  width: 40rem;
+  width: 42rem;
 }
 
 .ContactPageBody {
